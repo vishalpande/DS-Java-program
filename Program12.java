@@ -7,7 +7,6 @@ public class Program12 {
     public static void main(String args[]){
 
 
-
 int arr[]={10,20,630,40,50};
 
 int max=0;
