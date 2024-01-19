@@ -32,6 +32,21 @@ return N-1;
 
 }
 
+
+static int addElementToFirst(int arr[],int N,int var){
+if(N==arr.length){
+    return N;
+}
+
+for(int i=N;i>=1;i--){
+    arr[i]=arr[i-1];
+
+}
+arr[0]=var;
+
+return N+1;
+}
+
     public static void main(String args[]){
 
         Scanner sc=new Scanner(System.in);
@@ -51,6 +66,10 @@ printArray(arr,N);
 N=deleteFromTheFirst(arr,N);
 printArray(arr,N);
 
+
+
+N=addElementToFirst(arr,N,100);
+printArray(arr,N);
 
 
     }
