@@ -1,5 +1,4 @@
 //Add thh intger value one by one  let try the game lets stert the ga
-
 import java.util.Scanner;
 
 public class Program3 {
