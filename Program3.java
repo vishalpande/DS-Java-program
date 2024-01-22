@@ -15,9 +15,7 @@ for(;N>0;N/=10){
 
     sum+=N%10;
 
-
 }
-
 System.out.println(sum);
 
     }
