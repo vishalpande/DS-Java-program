@@ -15,7 +15,7 @@ for(int i=1;i<=N;i++){
     
     for(int j=i;j>0;j/=10){
 
-        sum+=j%10;
+   sum+=j%10;
 
         if(sum==K) {
             System.out.println(i + " : " + sum);
