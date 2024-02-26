@@ -26,8 +26,6 @@ if(sum==K){
 cur_ele++;
 
 }
-
-
         input.close();
     }
 }
