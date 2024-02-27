@@ -1,5 +1,4 @@
 //Given a positive number check its prime or not; 
-
 import java.util.Scanner;
 public class Program8 {
 
